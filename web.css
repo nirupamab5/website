@@ -1,0 +1,54 @@
+.mainsession{
+    background-color: aliceblue;
+}
+.top-left{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: dimgrey;
+}
+.top-left li{
+    float:left;
+}
+.top-left li a{
+    display:block;
+    color:whitesmoke;
+    text-align: left;
+    padding: 6px;
+    text-decoration: inherit;
+    font-size: 15px;
+    font-family: serif;
+
+}
+li a:hover{
+    color:orange;
+}
+.main{
+    align-items:flex-start;
+    background-image: url(virtusa_tag_logo_lg.svg);
+    background-repeat: no-repeat;
+    display: block;
+    
+}
+.main-nav{
+    list-style-type:none;
+    overflow: hidden;
+}
+.main-nav li{
+    float:right;
+}
+.main-nav li a{
+    display:block;
+    color:darkolivegreen;
+    text-align: left;
+    padding: 13px;
+    text-decoration: inherit;
+    font-size: 23px;
+    font-family: serif;
+}
+li a:hover{
+    color:orange;
+}
+.bottom{
+    border-collapse: collapse;
+    overflow: hidden;
+}
